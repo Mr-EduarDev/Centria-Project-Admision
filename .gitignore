@@ -326,8 +326,7 @@ centria_project_admision/media/
 
 
 .ipython/
-.env
-.envs/*
+.envs/.production
 
 ### Other Archives
 .idea/

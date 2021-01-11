@@ -16,18 +16,18 @@
     <link rel="icon" href="{% static 'images/favicons/favicon.ico' %}">
 
     {% block css %}
-    
+
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
 
     <!-- Your stuff: Third-party CSS libraries go here -->
-    
+
     <!-- This file stores project-specific CSS -->
-    
+
     <link href="{% static 'css/project.css' %}" rel="stylesheet">
-    
-    
+
+
     {% endblock %}
 
   </head>
@@ -83,7 +83,32 @@
       {% endif %}
 
       {% block content %}
-        <p>Use this document as a way to quick start any new project.</p>
+
+      <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El Taller del Maestro</h1>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp; El contenido de este proyecto, es una API Rest, que sirve datos para un taller
+          mecánico. Esta API, se elaboró con las siguientes tecnologías:</p>
+        <ul>
+          <li>
+            <a href="https://www.django-rest-framework.org/"> Django Rest Framework</a>
+          </li>
+           <li>
+            <a href="https://github.com/alanjds/drf-nested-routers"> Nested Routes(Django Rest Framework)</a>
+          </li>
+           <li>
+            <a href="https://github.com/rsinger86/drf-flex-fields"> Flex Fields(Django Rest Framework)</a>
+          </li>
+          <li>
+            <a href="https://pyjwt.readthedocs.io/en/latest/"> PyJWT</a>
+          </li>
+          <li>
+            <a href="https://github.com/pydanny/cookiecutter-django"> Cookie-cutter</a>
+          </li>
+          <li>
+            <a href="https://www.postman.com/"> Postman</a>
+          </li>
+
+        </ul>
       {% endblock content %}
 
     </div> <!-- /container -->
@@ -94,21 +119,21 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     {% block javascript %}
-      
+
       <!-- Bootstrap JS and its dependencies-->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
       <!-- Your stuff: Third-party javascript libraries go here -->
-      
+
 
       <!-- place project specific Javascript in this file -->
-      
+
       <script src="{% static 'js/project.js' %}"></script>
-      
+
 
     {% endblock javascript %}
   </body>
 </html>
- 
+
