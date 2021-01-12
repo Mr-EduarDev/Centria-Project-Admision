@@ -18,7 +18,7 @@ API Rest for to Mechanical Workshop
 
 Development
 -----------
-Para correr el proyecto en local aplicar los siguientes comando:
+Para correr el proyecto en local aplicar los siguientes comandos:
 
 ::
 
